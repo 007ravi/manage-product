@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>
+            Register
+        </title>
+    </head>
+    <body onload=loaduser()>
+      <h3>REGISTER</h3>
+      NAME <input type="text" id="Name"><br><br>
+      EMAIL <input type="email" id="Email" onkeydown=validateEmail()><br><br>
+      PASSWORD <input type="password" id="Pass" ><br><br>
+      CONFIRM PASSWORD <input type="password" id="Cpass"  onkeyup=validatePass()><br><br>
+      PHONE NO. <input type="text" id="Phone"><br><br>
+      <button id="register" onclick=registerUser()>REGISTER</button>
+    </body>
+    <script type="text/javascript" src="register.js"></script>
+</html>
